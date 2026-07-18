@@ -29,7 +29,7 @@ Hexad: 6 bits of data
 
 ## Example Program (Fibonacci Sequence)
 ```asm
-ldi r3 2
+ldi r3 3
 ldi r1 0
 ldi r2 1
 add r5 r1 r2
