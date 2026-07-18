@@ -5,10 +5,11 @@ A hyper-minimal 6-bit Minecraft CPU.
 Hexad: 6 bits of data
 
 ## Specifications
- - Register File: 8 hexad registers (r0-r7, r0 is tied to 0, r5-r7 are sent to display)
- - Display: 3x6
- - Instruction Memory: 64 instructions (128 hexads)
- - Program Counter: 1 hexad
+ - **Clock:** Pulse every 192 ticks (~0.052 hz)
+ - **Register File:** 8 hexads, 1 per register (r0-r7, r0 is tied to 0, r5-r7 are sent to display)
+ - **Instruction Memory:** 64 instructions worth (128 hexads)
+ - **Display:** 6x3
+ - **Program Counter:** 1 hexad
 
 ## Instructions
 ### Structure
@@ -23,7 +24,7 @@ Hexad: 6 bits of data
 | 011 | hlt __ __ __ | stop clock |
 | 100 | add rx ry rz | rx = ry + rz |
 | 101 | sub rx ry rz | rx = ry - rz |
-| 110 | nor rx ry rz | rx = ~(ry | rz) |
+| 110 | nor rx ry rz | rx = ~(ry \| rz) |
 | 111 | shr rx ry __ | rx = ry >> 1 |
 
 ## Example Program (Fibonacci Sequence)
