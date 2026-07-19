@@ -2,7 +2,7 @@ import mcschematic
 import sys
 
 # xi assembler and compiler
-
+# by las-r
 
 # opcode map
 OPCODES = {
