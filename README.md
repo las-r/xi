@@ -3,6 +3,7 @@ A hyper-minimal 6-bit Minecraft CPU.
 
 ## Used Terms
 Hexad: 6 bits of data
+Triad: 3 bits of data
 
 ## Specifications
  - **Clock:** Pulse every 192 ticks (~0.052 hz)
@@ -13,7 +14,7 @@ Hexad: 6 bits of data
 
 ## Instructions
 ### Structure
-`opc x [y z, ii]`
+`o x (y z / ii)` (Each letter corresponds to one triad, `ii` is the last two triads used for immediate loading.)
 
 ### Set
 | Opcode | Assembly | Description |
