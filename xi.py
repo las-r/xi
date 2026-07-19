@@ -1,6 +1,9 @@
 import mcschematic
 import sys
 
+# xi assembler and compiler
+
+
 # opcode map
 OPCODES = {
     "ldi": "000",
