@@ -1,3 +1,6 @@
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/1ac15fce-b445-43c8-8007-89d29295bbc0" />
+
+
 # Xi
 A hyper-minimal 6-bit Minecraft CPU.
 
