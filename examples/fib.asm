@@ -1,3 +1,5 @@
+; generates fibonacci numbers
+
 ldi r3 3
 ldi r1 0
 ldi r2 1

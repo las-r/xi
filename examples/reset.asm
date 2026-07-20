@@ -1,3 +1,5 @@
+; sets every register to 0
+
 ldi r1 0
 ldi r2 0
 ldi r3 0
