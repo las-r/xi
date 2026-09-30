@@ -4,8 +4,8 @@
 A hyper-minimal 6-bit Minecraft CPU.
 
 ## Used Terms
-Hexad: 6 bits of data
-Triad: 3 bits of data
+**Hexad:** 6 bits of data\
+**Triad:** 3 bits of data
 
 ## Specifications
  - **Clock:** Pulse every 192 ticks (~0.052 hz)
